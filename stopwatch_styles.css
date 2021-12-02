@@ -1,0 +1,38 @@
+body {
+    background-color:rgb(226, 166, 37);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 30pt;
+}
+
+@media screen and (max-width: 300px) {
+    h1 {
+        font-size: 20pt;
+    }
+}
+
+button {
+    padding: 15px 60px;
+    font-size: 15pt;
+    margin-top: 20px;
+    background-color:transparent;
+    color: white;
+    border-color: white;
+    border:solid thin;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+span {
+    font-size: 20pt;
+}
+
+button:hover {
+    transition: 0.8s;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(226, 166, 37);
+}
